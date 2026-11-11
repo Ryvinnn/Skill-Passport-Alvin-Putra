@@ -1,5 +1,5 @@
 # File konfigurasi lokal
-config/database.php
+config/koneksi.php
 
 # File sementara
 *.log
