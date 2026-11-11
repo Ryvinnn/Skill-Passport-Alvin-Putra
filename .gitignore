@@ -1,0 +1,9 @@
+# File konfigurasi lokal
+config/database.php
+
+# File sementara
+*.log
+*.tmp
+
+# Folder editor
+.vscode/

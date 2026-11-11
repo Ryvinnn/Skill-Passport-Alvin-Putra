@@ -1,0 +1,368 @@
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar {
+    width: 240px;
+    background: black;
+    color: white;
+    padding: 25px 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h2 {
+    font-size: 23px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+
+.sidebar-label {
+    color: cyan;
+    font-size: 11px;
+    margin: 0 10px 15px;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sidebar nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a.active {
+    background: black;
+    color: white;
+}
+
+.sidebar-logout {
+    margin-top: auto;
+    padding: 12px;
+    background: red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.main-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.topbar {
+    background: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.user-info {
+    text-align: right;
+    font-weight: bold;
+}
+
+.user-info span {
+    display: block;
+    font-size: 12px;
+    color: gray;
+    font-weight: normal;
+    margin-top: 4px;
+}
+
+
+.content {
+    padding: 30px;
+}
+
+.welcome {
+    margin-bottom: 25px;
+}
+
+.welcome h2 {
+    margin-bottom: 8px;
+}
+
+.welcome p {
+    color: gray;
+}
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.stat-card {
+    background: white;
+    padding: 22px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.stat-card h4 {
+    color: gray;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.stat-card h2 {
+    font-size: 25px;
+    color: blue;
+}
+
+.stat-card .pendapatan {
+    font-size: 19px;
+}
+
+
+.content-box {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.content-box h3 {
+    margin-bottom: 15px;
+}
+
+.content-box p {
+    color: gray;
+    line-height: 1.7;
+}
+
+
+@media (max-width: 900px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .sidebar h2 {
+        margin-bottom: 20px;
+    }
+
+    .sidebar-logout {
+        margin-top: 20px;
+    }
+
+    .topbar {
+        padding: 18px;
+    }
+
+    .content {
+        padding: 18px;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.product-section {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product-header h3 {
+    font-size: 20px;
+    color: black;
+}
+
+.btn-tambah {
+    background: blue;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-tambah:hover {
+    background: blue;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+.product-table th {
+    background: white;
+    color: gray;
+    font-size: 14px;
+}
+
+.product-table td {
+    color: gray;
+    font-size: 14px;
+}
+
+.product-table tbody tr:hover {
+    background: white;
+}
+
+.empty-data {
+    text-align: center !important;
+    padding: 30px !important;
+    color: cyan !important;
+}
+
+.form-section {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 700px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.form-section h3 {
+    margin-bottom: 25px;
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: black;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid silver;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: blue;
+}
+
+.form-action {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.btn-simpan {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-simpan:hover {
+    background: darkblue;
+}
+
+.btn-batal {
+    background: gray;
+    color: white;
+    padding: 11px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-batal:hover {
+    background: dimgray;
+}
+
+.error-message {
+    background: pink;
+    color: darkred;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+
+/*edit produk*/
+
+.btn-edit {
+    display: inline-block;
+    background: orange;
+    color: white;
+    padding: 7px 13px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn-edit:hover {
+    background: darkorange;
+}
+
+
+/* hapus produk */
+
+.btn-hapus {
+    background: red;
+    color: white;
+    padding: 7px 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn-hapus:hover {
+    background: darkred;
+}
+
+
