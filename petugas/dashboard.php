@@ -38,10 +38,10 @@ $nama = $_SESSION['Nama'] ?? 'Petugas';
 
         <nav>
             <a href="dashboard.php" class="active">Dashboard</a>
-            <a href="../produk/index.php">Data Produk</a>
-            <a href="../pelanggan/index.php">Data Pelanggan</a>
-            <a href="../penjualan/index.php">Transaksi Penjualan</a>
-            <a href="../laporan/index.php">Riwayat Penjualan</a>
+            <a href="../petugas/produk/index.php">Data Produk</a>
+            <a href="../petugas/pelanggan/index.php">Data Pelanggan</a>
+            <a href="../petugas/penjualan/index.php">Transaksi Penjualan</a>
+            <a href="../petugas/laporan/index.php">Riwayat Penjualan</a>
         </nav>
 
         <a href="../proses/logout.php" class="sidebar-logout">

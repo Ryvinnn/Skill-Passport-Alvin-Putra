@@ -36,8 +36,8 @@ $dataPendapatan = mysqli_fetch_assoc($queryPendapatan);
         <nav>
             <a href="dashboard.php" class="active">Dashboard</a>
             <a href="produk/index.php">Data Produk</a>
-            <a href="#">Data Pelanggan</a>
-            <a href="#">Data Penjualan</a>
+            <a href="pelanggan/index.php">Data Pelanggan</a>
+            <a href="penjualan/index.php">Data Penjualan</a>
             <a href="../proses/logout.php">Logout</a>
         </nav>
     </aside>
