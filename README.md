@@ -38,24 +38,14 @@ Petugas dapat mengakses dashboard untuk menjalankan aktivitas pengelolaan data d
 - Mengelola data transaksi.
 - Melihat riwayat transaksi.
 
-
- 4. Hak Akses Pengguna
-| Fitur | Admin | Petugas |
-| --- | :---: | :---: |
-| Dashboard | ✓ | ✓ |
-| Kelola Produk | ✓ | ✓ |
-| Kelola Pelanggan | ✓ | ✓ |
-| Kelola Transaksi | ✓ | ✓ |
-| Riwayat Transaksi | ✓ | ✓ |
-
- 5. Teknologi yang Digunakan
+ 4. Teknologi yang Digunakan
 
 - HTML – Membuat struktur halaman web.
 - CSS – Mengatur tampilan aplikasi.
 - PHP – Mengelola proses dan logika aplikasi.
 - MySQL – Menyimpan dan mengelola data.
 
- 6. Screenshot Aplikasi
+ 5. Screenshot Aplikasi
     
  Halaman Login
 <img width="1910" height="915" alt="image" src="https://github.com/user-attachments/assets/0a333183-c839-43e4-913a-95b389be0467" />
@@ -86,5 +76,5 @@ Petugas dapat mengakses dashboard untuk menjalankan aktivitas pengelolaan data d
 
 
 
- 7. Kesimpulan
+ 6. Kesimpulan
 Dengan dibuatnya aplikasi kasir berbasis web ini, diharapkan proses pengelolaan produk, pelanggan, dan transaksi penjualan dapat dilakukan dengan lebih mudah, cepat, dan terorganisir. Aplikasi ini juga memberikan kemudahan dalam melihat riwayat transaksi.
